@@ -37,6 +37,8 @@ const isPhoneNum = require('./regexp/isPhoneNum')
 const isUrl = require('./regexp/isUrl')
 
 const digitUppercase = require('./string/digitUppercase')
+const digitFormatForFinance = require('./string/digitFormatForFinance')
+const cutString = require('./string/cutString')
 
 const isSupportWebP = require('./support/isSupportWebP')
 
@@ -86,6 +88,8 @@ module.exports = {
     isUrl,
 
     digitUppercase,
+	digitFormatForFinance,
+	cutString,
 
     isSupportWebP,
 
